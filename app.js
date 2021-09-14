@@ -7,16 +7,16 @@ app.use(express.static("public"));
 
 
 app.get("/",(req,res)=>{
-    res.sendFile(`${__dirname}/public/views/home-page.html`)
+    res.sendFile(`${__dirname}/views/home-page.html`)
 })
 app.get("/about",(req,res)=>{
-    res.sendFile(`${__dirname}/public/views/about-page.html`)
+    res.sendFile(`${__dirname}/views/about-page.html`)
 })
 app.get("/works",(req,res)=>{
-    res.sendFile(`${__dirname}/public/views/works-page.html`)
+    res.sendFile(`${__dirname}/views/works-page.html`)
 })
 app.get("/galery",(req,res)=>{
-    res.sendFile(`${__dirname}/public/views/galery-page.html`)
+    res.sendFile(`${__dirname}/views/galery-page.html`)
 })
 
 
